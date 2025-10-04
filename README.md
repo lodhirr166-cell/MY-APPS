@@ -1,1 +1,40 @@
-WELCOME 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Colorful App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>स्वागत है मेरे ऐप में!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">होम</a></li>
+                <li><a href="#apps">ऐप्स</a></li>
+                <li><a href="#contact">संपर्क</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>हमारे ऐप्स</h2>
+            <p>यहाँ आपको फ्री और पेड ऐप्स मिलेंगे।</p>
+            <div class="app-card">
+                <h3>ऐप 1</h3>
+                <p>इस ऐप का डिस्क्रिप्शन।</p>
+                <button>डाउनलोड करें</button>
+            </div>
+            <div class="app-card">
+                <h3>ऐप 2</h3>
+                <p>इस ऐप का डिस्क्रिप्शन।</p>
+                <button>डाउनलोड करें</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 MY-APPPS. सभी अधिकार सुरक्षित।</p>
+    </footer>
+</body>
+</html>
