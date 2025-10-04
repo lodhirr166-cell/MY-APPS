@@ -1,0 +1,77 @@
+/* रंग-बिरंगा और आधुनिक डिज़ाइन */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* ग्रेडिएंट बैकग्राउंड */
+    color: #333;
+}
+header {
+    background: #ff6f61; /* कोरल रंग */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #ffd700; /* हल्का पीला हाइलाइट */
+}
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.app-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.app-card:hover {
+    transform: translateY(-5px); /* हल्का उछाल इफेक्ट */
+}
+.app-card h3 {
+    color: #4a90e2; /* नीला रंग */
+}
+button {
+    background: #28a745; /* हरा रंग */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #218838; /* गहरा हरा */
+}
+footer {
+    background: #343a40; /* गहरा ग्रे */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
